@@ -149,7 +149,7 @@ if (!function_exists('init_zibal_gateway_pv_class')) {
                                 $merchantId = $this->settings['merchantId'];
 
                                 $params = array (
-                                    'merchantId'     => preg_replace('/\s+/', '', $merchantId),
+                                    'merchant'     => preg_replace('/\s+/', '', $merchantId),
                                     'trackId' => $trackId
                                 );
 
